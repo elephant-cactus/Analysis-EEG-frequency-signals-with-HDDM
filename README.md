@@ -5,7 +5,7 @@
 
 在二分类恐惧泛化决策任务中，使用了E-prime与Neuroscan采集了4名被试的行为数据与EEG脑电信号（有效通道 = 60）。
 
-将E-prime行为整理为‘eprime_data.csv’文件，这个文件包含了所有被试的行为数据（每一行是一个trial）。
+将E-prime行为数据整理为‘eprime_data.csv’文件，这个文件包含了所有被试的行为数据（每一行是一个trial）。
 
 使用Matlab的EEGLAB扩展对每个被试的脑电信号进行预处理（预处理的流程写在了‘EEG_preprocessing.mlx’中）；
 
@@ -27,7 +27,7 @@ The behavioral data from E-prime were organized into a file named 'eprime_data.c
 
 The EEG signals for each participant were preprocessed using Matlab's EEGLAB extension (the preprocessing steps are detailed in 'EEG_preprocessing.mlx').
 
-The preprocessed files underwent short-time Fourier transform using the 'TFA_hddm.mlx' script. This generated two 4D-single mat objects for each participant, used to store energy information for each trial (epoch) (before baseline correction: P_data; after baseline correction: P_BC, shape: chanfretime*epoch).
+The preprocessed files underwent short-time Fourier transform using the 'TFA_hddm.mlx' script. This generated two 4D-single mat objects for each participant, used to store energy information for each trial (epoch) (before baseline correction: P_data; after baseline correction: P_BC, shape: chan*fre*time*epoch).
 
 The 'TFA_hddm.mlx' script also calculated the energy levels (in microvolt squared) in specific frequency bands (alpha, beta, theta, delta) at each electrode and specific time segment for each epoch (trial), and wrote these into trial-wise CSV files. In this example, alpha and beta waves were extracted.
 
