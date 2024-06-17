@@ -15,7 +15,7 @@
 ‘presentation.pptx’是讲解本项目的辅助材料，这个演讲在https://www.bilibili.com/video/BV1gH4y1w7U8/?vd_source=92b79541a528808aec54b80d3d3a3a7f#reply1055970544中可以找到（中文）；
 ‘example.pdf’是讲解中提到的，使用了类似的研究方法的研究的论文。
 
-### Project description
+## Project description
 This project demonstrates a method for extracting specific EEG band energies and using them for drift diffusion modeling. In a binary classification fear generalization decision task, behavioral data and EEG signals from four participants were collected using E-prime and Neuroscan (effective channels = 60).
 
 ### Step one
