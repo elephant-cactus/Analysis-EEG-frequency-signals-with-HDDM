@@ -1,4 +1,4 @@
-# analysis-EEG-frequency-signals-with-HDDM
+# Analysis-EEG-frequency-signals-with-HDDM
 提取EEG频段能量进行漂移扩散建模
 
 这个项目演示了一种提取EEG特定频段能量进行漂移扩散建模建模的方法。
