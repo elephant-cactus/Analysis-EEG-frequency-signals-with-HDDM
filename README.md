@@ -12,6 +12,6 @@
 
 ‘TFA_hddm.mlx’还用于计算P_data、P_BC对象中特定频段（alpha、beta、theta、delta）在每个电极、特定时间段，每个epoch（trial）上的能量大小（微伏平方），并将他们写成trial-wise的csv文件，在这个例子中，我提取了alpha和beta波；
 
-‘TFA_hddm.mlx’还用于将记载了行为数据与上述频段能量数据的csv文件合并，得到‘combined_data’
+‘TFA_hddm.mlx’还用于将记载了行为数据与上述频段能量数据的csv文件合并，得到‘combined_data’；
 
 ‘hddm_modeling.ipynb’对‘combined_data’中的数据进行了建模，分析了Fpz电极点上的alpha能量与决策阈限（参数a）在不同确定性刺激上的关系，以及状态焦虑分数对这种关系的调节作用。
