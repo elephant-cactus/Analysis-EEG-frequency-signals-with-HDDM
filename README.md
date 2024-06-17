@@ -1,5 +1,6 @@
 # analysis-EEG-frequency-signals-with-HDDM
 提取EEG频段能量进行漂移扩散建模
+
 这个项目演示了一种提取EEG特定频段能量进行漂移扩散建模建模的方法。
 
 在二分类恐惧泛化决策任务中，使用了E-prime与Neuroscan采集了4名被试的行为数据与EEG脑电信号（有效通道 = 60）。
